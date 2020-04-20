@@ -1,0 +1,25 @@
+Can create React Components using both: class syntax, which allows for use of this, and props and states. Or using a function.
+Every React component requires a render method, that should return any necessary XML Markup Tags.
+Use {} to stick JavaScript stuffs within HTML markup using JSX
+
+Can deconstruct a set of inputs (such as this.props)
+e.g. { title, author, pages } = this.props
+
+Pass properties in the ReactDom.render() method, within the tag of each component
+e.g. <Library books={booksData} />,
+
+Can use () => {} to create a function
+
+Can use .map() to perform a repeat action on each item within an entire array
+e.g. {books.map((book) => <Book title={book.title} author={book.author}/>)}
+
+Can use {variable ? 'yes' : 'no'} as an on the fly if-else statement.
+Can be used to return different things, which is important for conditional rendering
+
+It would be wise to manage all states from the root file.
+This master state can be noted as the 'Source of Truth',
+from which all states are managed so that nothing gets lost.
+
+You must use 'export default' to access classes beyond that file, and 'export' before a function
+
+Prop Types can come in handy for specifying parameter types
