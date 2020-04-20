@@ -1,0 +1,49 @@
+-- 04_12
+Function closures.
+Nested functions remember the context they were returned from even after it's parent function has finished.
+
+
+
+-- 04_01
+Three Types of Functions
+1. Named functions
+2. Anonymous functions
+3. Immediately invoked function expressions
+
+
+
+-- 03_08
+
+Array Methods
+
+.reverse()
+.shift() - removes item at position 0
+.unshift() - inserts item(s) at position 0
+.pop() - removes item from the end of array
+.push() - adds item(s) to the end of array
+.splice(pos, n) - start at position pos and remove n items
+
+.slice() - creates and returns a copy of array
+.indexOf(key, indexStartPos) - returns index # of item found in array
+.join(separator) - joins all items in an array into a string separated by a separated
+
+
+
+-- 03_06
+
+Ternary Operator
+
+condition ? true : false
+Remember to use comments to explain these
+
+
+
+-- 02_04
+
+When embedding JavaScript to a webpage,
+the script can either load and execute:
+1. Right Away (default)
+2. Asynchronously (add 'async' to the script tag)
+3. Deffered (add 'defer' to the script tag)
+
+LinkedIn Learning Reference: Developing for Performance: HTTP/2
